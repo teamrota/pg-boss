@@ -22,7 +22,7 @@
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "build": "rimraf dist && babel src --out-dir lib --copy-files",
+    "build": "rimraf lib && babel src --out-dir lib --copy-files",
     "test": "node_modules/.bin/mocha --compilers js:babel-core/register",
     "cover": "./node_modules/.bin/babel-node ./node_modules/isparta/bin/isparta cover --report text --report lcov node_modules/mocha/bin/_mocha -- --reporter dot"
   },
