@@ -1,6 +1,6 @@
 {
   "name": "@teamrota/pg-boss",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Queueing jobs in Node.js using PostgreSQL like a boss",
   "main": "./lib/index.js",
   "publishConfig": {
