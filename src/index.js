@@ -1,6 +1,4 @@
 const EventEmitter = require('events').EventEmitter; //node 0.10 compatibility;
-const assert = require('assert');
-
 const Attorney = require('./attorney');
 const Contractor = require('./contractor');
 const Manager = require('./manager');
