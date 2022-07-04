@@ -1,4 +1,3 @@
-const assert = require('assert');
 const EventEmitter = require('events').EventEmitter; //node 0.10 compatibility
 const Db = require('./db');
 const plans = require('./plans');
@@ -17,7 +16,6 @@ class Contractor extends EventEmitter {
 
     static migrationPlans(schema, version, uninstall){
         let migration = migrations.get(schema, version, uninstall);
-        assert(migration, 'migration not found for this version');
         return migration.commands.join(';\n\n');
     }
 
