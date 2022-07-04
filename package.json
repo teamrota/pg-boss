@@ -11,9 +11,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "build": "rimraf lib && babel src --out-dir lib --copy-files"
+    "build": "rimraf lib && cp -R src lib"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
