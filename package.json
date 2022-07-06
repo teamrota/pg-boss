@@ -1,6 +1,6 @@
 {
   "name": "@teamrota/pg-boss",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "Queueing jobs in Node.js using PostgreSQL like a boss",
   "author": "timgit",
   "license": "MIT",
@@ -11,7 +11,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "rimraf lib && cp -R src lib"
   },
