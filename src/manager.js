@@ -1,3 +1,4 @@
+const assert = require('assert');
 const EventEmitter = require('events').EventEmitter; //node 0.10 compatibility;
 const Promise = require('bluebird');
 const uuid = require('uuid');
