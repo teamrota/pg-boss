@@ -1,6 +1,6 @@
 {
   "name": "@teamrota/pg-boss",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "Queueing jobs in Node.js using PostgreSQL like a boss",
   "author": "timgit",
   "license": "MIT",
@@ -15,17 +15,13 @@
   "scripts": {
     "build": "rimraf lib && cp -R src lib"
   },
-  "engines": {
-    "node": "^16.15.0",
-    "npm": "^8.11.0"
-  },
   "dependencies": {
     "bluebird": "^3.7.2",
     "pg": "^8.7.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2"
+    "rimraf": "^5.0.7"
   },
   "overrides": {
     "glob-parent": "^5.1.2",
