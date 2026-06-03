@@ -1,6 +1,6 @@
 {
   "name": "@teamrota/pg-boss",
-  "version": "0.8.4",
+  "version": "0.8.6",
   "description": "Queueing jobs in Node.js using PostgreSQL like a boss",
   "author": "timgit",
   "license": "MIT",
@@ -24,6 +24,7 @@
     "rimraf": "^5.0.7"
   },
   "overrides": {
+    "cross-spawn": "^7.0.6",
     "glob-parent": "^5.1.2",
     "minimist": "^1.2.6",
     "trim": "^1.0.1"
